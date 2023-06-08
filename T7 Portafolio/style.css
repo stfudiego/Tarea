@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 970px;
+}
+
+header{
+    background-color: aliceblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.margenHeader{
+    margin: 15px;
+}
+
+main{
+    background-color: rgb(61, 34, 67);
+}
+
+.papaFlex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#FotoDeJayneDoe{
+    border: 5px solid gray;
+    width: 400px;
+}
+
+.cajas{
+    background-color: whitesmoke;
+    width: 290px;
+    height: 500px;
+}
+
+#About{
+    width: 485px;
+    height: 275px;
+}
+
+.estiloTitulo{
+    background-image: linear-gradient(rgb(158, 158, 158), rgb(103, 103, 103), rgb(158, 158, 158));
+    padding: 5px;
+}
+
+.estiloTexto{
+    padding: 5px;
+}
+
+.fotoCaja{
+    width: 290px;
+}
+
+.fotoTec{
+    width: 30px;
+}
+
