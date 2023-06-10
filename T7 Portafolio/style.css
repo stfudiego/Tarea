@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-color: aliceblue;
+    background-color: whitesmoke;
     height: 60px;
     display: flex;
     align-items: center;
@@ -17,6 +17,7 @@ header{
 
 .margenHeader{
     margin: 15px;
+    font-family: 'Comic Neue', cursive;
 }
 
 main{
@@ -38,7 +39,7 @@ main{
 .cajas{
     background-color: whitesmoke;
     width: 290px;
-    /* height: 500px; */
+    height: 600px;
 }
 
 #About{
@@ -50,10 +51,16 @@ main{
     background-image: linear-gradient(rgb(158, 158, 158), rgb(103, 103, 103), rgb(158, 158, 158));
     padding: 5px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .estiloTexto{
     padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.tamañoTexto{
     height: 160px;
 }
 
@@ -64,8 +71,58 @@ main{
 
 .fotoTec{
     width: 35px;
-    border: 1px solid red;
     margin-top: 10px;
     margin-left: 14px;
 }
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: small;
+}
+
+#boton1{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+#boton2{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+#boton3{
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.fotoSociales{
+    width: 25px;
+}
+
+.container{
+    width: 970px;
+}
+
+.center-me{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    margin: 2.5px;
+}
+
 
