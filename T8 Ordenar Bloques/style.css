@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 640px;
+    height: 570px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 10px solid white;
+}
+
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.imgChiquita{
+    width: 70px;
+    height: 50px;
+    background-color: white;
+}
+
+.imgBlock{
+    display: flex;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 7px;
+    height: 100px;
+    width: 100px;
+}
+
+.imgColorB{
+    background-color: skyblue;
+}
+
+.imgColorR{
+    background-color: indianred;
+}
+
+header{
+    display: flex;
+}
+
