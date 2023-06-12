@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: #245075;
+    border: 1px solid white;
+    width: 970px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    margin: 10px 15px ;
+    height: 110px;
+}
+
+header div{
+    margin: 10px;
+}
+
+.flexCent{
+    display: flex;
+    justify-content: center;
+}
+
+.colorWhite{
+    color: white;
+}
+
+.colorAmar{
+    color: #ffde38;
+    margin: 0px 5px;
+}
+
+.colorBlue{
+    color: #73a7d7;
+}
+
+.colorBlack{
+    color: black;
+    font-weight: bolder;
+}
+
+form{
+    border: 1px solid #444444;
+    background-color: #444444;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+    padding: 10px 30px;
+}
+
+input{
+    text-align: center;
+    padding: 7px;
+}
+
+button{
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #245075;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #467fac;
+    background-color: #467fac;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 40px 20px 75px;
+    box-shadow: 3px 3px 5px black;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+}
+
+main div p{
+    width: 650px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asideUl{
+    margin: 10px 0px;
+    font-style: italic;
+}
+
+.listDecorF{
+    list-style: none;
+}
+
+.listDecorF2::before{
+    content: ">>";
+    color: yellow;
+    padding-right: 8px;
+    font-size: xx-small;
+    text-decoration: none;
+}
+
+.listDecorN{
+    list-style: none;
+    font-size: larger;
+}
+
+.listDecorS{
+    list-style: square;
+}
+
+article{
+    height: 230px;
+    background-color: white;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* border: 3px solid greenyellow; */
+}
+
+article div{
+    width: 400px;
+    margin: 10px 5px 10px 5px;
+    border-top: 5px solid #73a7d7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.centerText{
+    text-align: center;
+    width: 340px;
+    /* margin: 10px; */
+    /* border: 1px solid blueviolet; */
+}
+
+.columnCent{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 1px solid red; */
+}
+
+footer ul{
+    padding: 20px;
+    
+}
+
+footer ul li{
+    margin: 50px 50px 0px 50px;
+    font-size: larger;
+}
+
+footer p{
+    margin-bottom: 10px;
+    font-size: small;
+}
