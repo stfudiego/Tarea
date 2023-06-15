@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Internet</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/globe.png" alt="">
+            <h1>The Inter<span class="colorSpanB">net</span></h1>
+        </div>
+        <h2>The World Wide Web</h2>
+    </header>
+    <main>
+        <aside class="boldSpan">
+            <h3>So, What's an <span class="colorSpanR">Internet?</span></h3>
+            <p>An <span class="colorSpanB">Inter</span>connected <span class="colorSpanB">Net</span>work of computers all around the world!</p>
+            <button id="botonB">WATCH A VIDEO</button>
+            <button id="botonO">MORE RESOURCES</button>
+            <hr>
+            <div>
+                <img id="fondoBanner" src="./img/ad_background.png" alt="">
+                <h3>Reinvent your career in just 14 weeks</h3>
+                <img id="ninjaImg" src="./img/ninja.png" alt="">
+                <button>Learn More >>></button>
+            </div>
+        </aside>
+        <article>
+            <div id="datos">
+                <div id="pal0">
+                    <img id="home" src="./img/home.png" alt="">
+                    <p id="textHome" class="colorSpanB">DNS</p>
+                </div>
+                <div class="pal">
+                    <img src="./img/phone.png" alt="">
+                    <div>
+                        <p>Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+                        <p id="num" class="colorSB boldSpan">855.967.3787</p>
+                        <p>International +1.617.963.0555</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3 class="colorSpanB boldSpan title">Clients and Servers</h3>
+                <p class="sangria">Computers connected to the <span class="colorSB">Web</span> are called <span class="boldSpan">clients</span> and <span class="boldSpan">servers</span>.</p>
+                <ul>
+                    <li class="sangria">
+                        <span class="colorSB">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="colorSB">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).
+                    </li>
+                    <li class="sangria">
+                        <span class="colorSB">Servers</span> are computers that store <span class="colorSB">webpages</span>, <span class="colorSB">sites</span>, or <span class="colorSB">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.
+                    </li>
+                </ul>
+                <img id="grafico" class="sangria" src="./img/client_server.jpg" alt="">
+            </div>
+            <div>
+                <h3 class="colorSpanB boldSpan title">So What Actually Happens?</h3>
+                <ol>
+                    <li class="sangria">
+                        The browser goes to the <span class="colorSB">DNS server</span> and finds the real address of the <span class="colorSB">server</span> that the website lives on.
+                    </li>
+                    <li class="sangria">
+                        The browser sends an <span class="colorSB">HTTP request</span> message to the server asking it to send a copy of the website to the client.
+                    </li>
+                    <li class="sangria">
+                        If the server approves the client's request, the server sends the client a <span class="colorSB">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.
+                    </li>
+                    <li class="sangria">
+                        The browser assembles the small chunks into a complete wbsite and displays it to you!
+                    </li>
+                </ol>
+            </div>
+            <div id="last">
+                <img class="sangria" src="./img/html.png" alt="">
+                <div>
+                    <h3 class="colorSpanB boldSpan title">The Big 3 - HTML, CSS, JavaScript</h3>
+                    <div>
+                        <p class="sangria">While the server can process information in many different languages, the files that they serve to the client are <span id="italic">always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+                        <p class="sangria">Learn more about the Big 3 <span class="colorSB">here</span>!</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
