@@ -118,45 +118,45 @@
 
 // console.log(negativoCero([1,5,10,-2]));
 
-// function maxMinAvg(array) {
+function maxMinAvg(array) {
 
-//     var newArray = [];
+    var newArray = [];
 
-//     function mayorArray() {
+    function mayorArray() {
 
-//         var max = array[0];
-//         for (let i = 1; i < array.length; i++) {
-//         if(max < array[i])
-//         {max = array[i]}
-//         }
-//         return max   
-//     }
+        var max = array[0];
+        for (let i = 1; i < array.length; i++) {
+        if(max < array[i])
+        {max = array[i]}
+        }
+        return max   
+    }
 
-//     function menorArray() {
+    function menorArray() {
 
-//         var min = array[0];
-//         for (let i = 1; i < array.length; i++) {
-//         if(min > array[i])
-//         {min = array[i]}
-//         }
-//         return min   
-//     }
+        var min = array[0];
+        for (let i = 1; i < array.length; i++) {
+        if(min > array[i])
+        {min = array[i]}
+        }
+        return min   
+    }
 
-//     function promArray() {
-//         var sum = 0;
-//         var prom = 0;
-//         for (let i = 0; i < array.length; i++) {
-//         sum += array[i];
-//         }
-//         prom = sum/array.length;
-//         return prom
-//     }
+    function promArray() {
+        var sum = 0;
+        var prom = 0;
+        for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+        }
+        prom = sum/array.length;
+        return prom
+    }
     
-//     newArray.push(mayorArray());
-//     newArray.push(menorArray());
-//     newArray.push(promArray());
-//     return newArray;
-// }
+    newArray.push(mayorArray());
+    newArray.push(menorArray());
+    newArray.push(promArray());
+    return newArray;
+}
 
 // console.log(maxMinAvg([1,5,10,-2]));
 
@@ -173,15 +173,15 @@
 
 // console.log(interVal([1,5,10,-2]));
 
-function numString(array){
-    for (let i = 0; i < array.length; i++) {
-        if(array[i]<0) {
-            array[i]= "Dojo";
-        }
+// function numString(array){
+//     for (let i = 0; i < array.length; i++) {
+//         if(array[i]<0) {
+//             array[i]= "Dojo";
+//         }
         
-    }
+//     }
 
-    return array
-}
+//     return array
+// }
 
-console.log(numString([-1,-3,2]));
+// console.log(numString([-1,-3,2]));
